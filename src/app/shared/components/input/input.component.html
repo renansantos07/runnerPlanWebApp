@@ -1,0 +1,14 @@
+<mat-form-field class="w-100" appearance="outline">
+    <mat-label>{{label}}</mat-label>
+    <input 
+        matInput 
+        [placeholder]="placeholder" 
+        [type]="type" 
+        [required]="required" 
+        [name]="name"
+        [errorStateMatcher]="matcher">
+    <mat-error *ngIf="displayMessage[name]">
+          {{ displayMessage[name] }}
+    </mat-error>
+</mat-form-field>
+
