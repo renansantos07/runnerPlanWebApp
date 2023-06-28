@@ -1,4 +1,8 @@
 {
+  "projects": {
+    "default": "runnerplan-dev",
+    "develop": "runnerplan-dev"
+  },
   "targets": {
     "runnerplan-prod": {
       "hosting": {
@@ -6,9 +10,14 @@
           "runnerplan-prod"
         ]
       }
+    },
+    "runnerplan-dev": {
+      "hosting": {
+        "RunnerPlanWebApp": [
+          "runnerplan-dev"
+        ]
+      }
     }
   },
-  "projects": {
-    "default": "runnerplan-prod"
-  }
+  "etags": {}
 }
