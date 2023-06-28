@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "runnerplan-prod": {
+      "hosting": {
+        "RunnerPlanWebApp": [
+          "runnerplan-prod"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "runnerplan-prod"
+  }
+}
