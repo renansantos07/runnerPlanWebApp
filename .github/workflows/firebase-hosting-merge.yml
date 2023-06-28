@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_RUNNERPLAN_PROD }}'
           channelId: live
           projectId: runnerplan-prod
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
